@@ -1,0 +1,84 @@
+.footer{
+
+}
+.footer .top{
+    display: grid;
+    grid-template-columns: 35% 20% 20%;
+    padding: 72px 100px;
+    gap: 184px;
+    background: #181423;
+    color: #fff;
+}
+.footer .top .logo{
+    height: 78px;
+    width: 274px;
+}
+.footer .top .left p{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    width: 80%;
+}
+
+.footer .top .middle .title{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+}
+.footer .top .middle .social-media{
+    margin: 24px 0 40px;
+    display: flex;
+    gap: 24px;
+}
+.footer .top .middle .social-media img{
+    width: 50px;
+    height: 48px;
+}
+.footer .top .middle p{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;    
+}
+
+.footer .top .right .title{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;    
+}
+.footer .top .right .stores{
+    display: flex;
+    margin: 24px 0;
+    gap: 24px;
+}
+.footer .top .right .stores img{
+    height: 48px;
+    width: 48px;
+}
+.footer .top .right .btn{
+    width: 215px;
+    height: 56px;
+}
+.footer .bottom{
+    display: flex;
+    padding: 24px 0;
+    justify-content: center;
+}
+.footer .bottom h5{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #181423;
+}
+.footer .bottom h5 .icon{
+    margin-right: 16px;
+}

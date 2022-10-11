@@ -1,38 +1,37 @@
-.App {
+.App{
+  /* padding-bottom: 100px; */
+}
+h1,h2,h4,h5{
+  margin: 0;
+}
+.btn{
+  height: 56px;
+  border-radius: 8px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
   text-align: center;
+  font-feature-settings: 'liga' off;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn.btn-primary{
+  background: #CB1B5B;
+  color: #fff;
+  padding: 16px 54px;
+  border:0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn.btn-secondary{
+  background: #fff;
+  color: #CB1B5B;
+  padding: 12px 24px;
+  border:1px solid #CB1B5B;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-light{
+  background: #fff;
+  color: #000000;
+  padding: 14px 48px;
 }

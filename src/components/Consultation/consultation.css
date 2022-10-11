@@ -1,0 +1,59 @@
+.consultation{
+    display: grid;
+    grid-template-columns: 50% 45%;
+    padding: 0 200px;
+    margin-top: 100px;
+    align-items: center;  
+  }
+  .consultation .img-container{
+    display: flex;
+    width: 100%;  
+  }
+  .consultation .img-container img{
+    height: 560px;
+    width: 280px;
+  }
+  .consultation .highlight{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.06em;
+    color: #CB1B5B;
+  }
+  
+  .consultation .title{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 47px;
+    color: #181423;
+  }
+  .consultation .features{
+    padding: 0;
+    margin: 32px 0;
+  }
+  .consultation .features li{
+    list-style-type: none;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4B4853;
+    padding: 12px 25px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+  .consultation .features li img{
+    height: 32px;
+    width: 32px;
+  }
+  .consultation .features li.active{
+    background: #FFF0F7;
+    border-radius: 8px;
+  }
+  

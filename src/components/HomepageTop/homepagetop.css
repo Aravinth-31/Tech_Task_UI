@@ -1,0 +1,41 @@
+.homepage-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+  }
+  
+  .homepage-top .get-content{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 47px;
+    color: #4B4853;
+    margin: 0;
+    width: 570px;
+  }
+  .homepage-top .get-content span{
+    font-weight: 500;
+    color: #CB1B5B;
+  }
+  
+  .homepage-top .title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+    text-align: center;
+    letter-spacing: -0.025em;
+    font-feature-settings: 'liga' off;
+    color: #181423;
+    margin: 0;
+    width: 800px;
+  }
+  
+  .homepage-top .btn{
+    margin:48px 0px;
+    width: 202px;
+  }
+  

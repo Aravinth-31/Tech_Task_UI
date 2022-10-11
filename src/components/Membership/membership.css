@@ -1,0 +1,40 @@
+.membership{
+    margin-top: 100px;
+    padding: 146px 0 0;
+    position: relative;
+  }
+  .membership .contents{
+    background: #181423;
+    color: #fff;
+    padding: 40px 100px;
+  }
+  .membership .title{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 59px;
+  }
+  .membership .features{
+    display: grid;
+    grid-template-columns: 350px 380px;
+    padding: 0;
+  }
+  .membership .features li{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    background: url("../../assets/star.svg") no-repeat left; 
+    padding: 13px 0px 13px 40px;
+    list-style: none;
+    margin: 0;
+  }
+  .membership img.mobile{
+    position: absolute;
+    top: 0;
+    height: 523px;
+    right: 100px;
+  }
+  

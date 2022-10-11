@@ -1,0 +1,64 @@
+.ordering{
+    display: grid;
+    grid-template-columns: 50% 45%;
+    padding: 0 200px;
+    margin-top: 100px;
+    align-items: center;  
+  }
+  
+  .ordering .img-container{
+    display: flex;
+    width: 100%;  
+  }
+  .ordering .img-container img{
+    height: 560px;
+    width: 280px;
+  }
+  .ordering .highlight{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.06em;
+    color: #CB1B5B;
+  }
+  
+  .ordering .title{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 59px;
+    letter-spacing: 0.01em;
+    color: #181423;
+  }
+  .ordering .features{
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: 224px 224px;
+    gap: 32px 40px;
+  }
+  .ordering .features .feature{
+    border: 1px solid #FFE8F4;
+    border-radius: 8px;
+    padding: 16px 24px;
+  }
+  .ordering .features .feature img{
+    height: 48px;
+    width: 48px;
+    margin-bottom: 16px;
+  }
+  .ordering .features .feature h5{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #65626C;
+    width: 150px;
+  }
+  .ordering .btn.btn-primary{
+    margin-top: 40px;
+  }
+  

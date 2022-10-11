@@ -1,0 +1,185 @@
+
+.cards{
+    background: #F9F9F9;
+    padding: 100px;
+  }
+  
+  .cards .home-healthcare{
+    background: #fff;
+    border-radius: 24px;
+    padding: 56px;
+    display: flex;
+    gap: 76px;
+    align-items: center;
+    position: relative;
+  }
+  .home-healthcare .title{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 59px;
+    color: #181423;
+  }
+  .home-healthcare p{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #4B4853;
+    width: 470px;
+  }
+  .home-healthcare .sub-img{
+    position: absolute;
+    top: 114px;
+    left: 375px;
+  }
+  
+  .join-us{
+    padding: 40px;
+    background: #fff;
+    border-radius: 16px;
+    margin-top: 64px;
+  }
+  .join-us .title{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 47px;
+    color: #181423;
+  }
+  .join-us .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 97px;
+  }
+  .join-us .content p{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #4B4853;
+    width: 750px;
+  }
+  
+  .cards .group{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+  }
+  .cards .group .instadoc{
+    background: #fff;
+    width: 592px;
+    border-radius: 24px;
+    padding: 32px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .cards .group .instadoc .img-container{
+    display: flex;
+    justify-content: center;
+  }
+  .cards .group .instadoc img{
+    width: 414px;
+    height: 204px;
+  }
+  .cards .group .instadoc .title{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 59px;
+    color: #181423;
+  }
+  .cards .group .instadoc .sub-title{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #4B4853;
+  }
+  .cards .group .instadoc .features{
+    padding: 0;
+  }
+  .cards .group .instadoc .features li{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #4B4853;  
+    background: url("../../assets/tick_without_outline.svg") no-repeat left; 
+    padding: 5px 0px 8px 40px;
+    list-style: none;
+    margin: 0;
+  }
+  .cards .group .instadoc a{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #CB1B5B;
+  }
+  
+  .cards .group .appointments{
+    background: #fff;
+    width: 596px;
+    padding: 32px;
+    border-radius: 24px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .cards .group .appointments .img-container{
+    display: flex;
+    justify-content: center;
+  }
+  .cards .group .appointments img{
+    height: 248px;
+  }
+  .cards .group .appointments .title{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 59px;
+    color: #181423;
+  }
+  .cards .group .appointments .sub-title{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #4B4853;
+  }
+  .cards .group .appointments p{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    color: #4B4853;
+  }
+  .cards .group .appointments a{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #CB1B5B;
+  }
+  
