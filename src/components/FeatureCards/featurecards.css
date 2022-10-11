@@ -130,7 +130,17 @@
     line-height: 24px;
     color: #CB1B5B;
   }
-  
+  .cards .group .instadoc a img{
+    height: 20px;
+    width: 20px;
+    opacity: 0;
+    margin-left: -10px;
+    transition: all 500ms ease;
+  }
+  .cards .group .instadoc a:hover img{
+    opacity: 1;
+    margin-left: 5px;
+  }
   .cards .group .appointments{
     background: #fff;
     width: 596px;
@@ -182,4 +192,14 @@
     line-height: 24px;
     color: #CB1B5B;
   }
-  
+  .cards .group .appointments a img{
+    height: 20px;
+    width: 20px;
+    opacity: 0;
+    transition: all 500ms ease;
+    margin-left: -10px;
+  }
+  .cards .group .appointments a:hover img{
+    opacity: 1;
+    margin-left: 5px;
+  }

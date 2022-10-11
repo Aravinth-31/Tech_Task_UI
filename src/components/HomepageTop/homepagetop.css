@@ -13,7 +13,7 @@
     line-height: 47px;
     color: #4B4853;
     margin: 0;
-    width: 570px;
+    width: 595px;
   }
   .homepage-top .get-content span{
     font-weight: 500;
@@ -31,7 +31,7 @@
     font-feature-settings: 'liga' off;
     color: #181423;
     margin: 0;
-    width: 800px;
+    width: 830px;
   }
   
   .homepage-top .btn{
@@ -39,3 +39,15 @@
     width: 202px;
   }
   
+
+  .homepage-top .circle{
+    position: absolute;
+    width: 1440px;
+    height: 1440px;
+    left: calc(50% - 1440px/2);
+    top: 745px;
+    background: #FEE6EE;
+    border-radius: 50%;
+    z-index: -1;
+    transition: top 4s ease;
+  }

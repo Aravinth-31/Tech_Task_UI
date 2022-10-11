@@ -1,6 +1,7 @@
 import React from "react";
 
 import instadoc_card from "../../assets/instadoc_card.svg";
+import right_arrow from "../../assets/right-arrow.svg";
 
 const InstaDoc=(props)=>{
     return(
@@ -16,7 +17,7 @@ const InstaDoc=(props)=>{
             <li>Strictly not for emergency use</li>
             <li>Available 24*7</li>
         </ul>
-        <a href="#">Get Notified</a>
+        <a href="#">Get Notified <img alt="" src={right_arrow}/></a>
     </div>
     )
 }

@@ -10,6 +10,8 @@ const HomepageTop = (props) => {
         const interval = setInterval(() => {
             setIndex(prevState => (prevState + 1) % 5);
         }, 1000);
+        const circle=document.getElementById("circle");
+        circle.style.top="-2000px";
         return () => {
             clearInterval(interval);
         }
@@ -18,8 +20,9 @@ const HomepageTop = (props) => {
         <div className='homepage-top'>
             <h4 className='get-content'>Get HealthSy <span>{sentences[index]}</span></h4>
             <h1 className='title'>Where Healthcare is Sincerely Yours!</h1>
-            <button className='btn btn-primary'>Get Notified</button>
+            <button className='btn btn-primary' data-toggle="modal" data-target=".bd-example-modal-lg">Get Notified</button>
             <img src={mobile1}  alt=""/>
+            <div className="circle" id="circle"></div>            
         </div>
     )
 }

@@ -23,7 +23,7 @@
     top:60px;
     border-radius: 10px;
     padding:10px 20px;
-    width: 180px;
+    width: 220px;
     right: 0;
     display: none;
     transition: max-height 0.15s ease-out;
@@ -32,10 +32,29 @@
     list-style-type: none;
     padding: 8px 0px;
     cursor: pointer;
+}
+.dropdown .dropdown-items li.active{
+    color: #CB1B5B;
+}
+.dropdown .dropdown-items li.active img{
+    transform: rotate(180deg);
+}
+.dropdown-items li .content{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .dropdown .dropdown-items.show{
     display: block;
+}
+.dropdown .dropdown-items li .sub-drop-down{
+    display: none;
+}
+.dropdown .dropdown-items li.active .sub-drop-down{
+    display: block;
+}
+.dropdown .sub-drop-down li{
+    font-size: 14px;
+    color: #000;
+    opacity: 0.7;
 }
